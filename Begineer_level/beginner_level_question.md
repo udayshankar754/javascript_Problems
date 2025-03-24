@@ -12,6 +12,7 @@ function reverseString(str) {
     // Your code here
 }
 ```
+
 ## 2. Factorial of a Number
 - Write a function to calculate the factorial of a number.
 
@@ -22,6 +23,7 @@ function factorial(num) {
     // Your code here
 }
 ```
+
  ## 3. Check if a Number is Prime
 - Write a function to check if a number is prime.
 
@@ -32,6 +34,7 @@ function isPrime(num) {
     // Your code here
 }
 ```
+
  ## 4. Find the Maximum Number in an Array
 - Write a function that returns the maximum number from an array.
 
