@@ -78,6 +78,7 @@ function countOccurrences(str, char) {
     // Your code here
 }
 ```
+
  ## 8. Palindrome Check
 - Write a function that checks if a string is a palindrome.
 
@@ -121,6 +122,7 @@ function isAnagram(str1, str2) {
     // Your code here
 }
 ```
+
 ## 12. FizzBuzz 
 - Write a function that prints numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number, and for the multiples of five, print "Buzz". For numbers - which are multiples of both three and five, print "FizzBuzz".
 

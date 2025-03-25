@@ -17,8 +17,10 @@ function factorial(num) {
   return fact
 }
 
-console.log(factorial(2));  // Output: 2 
-console.log(factorial(5));  // Output: 120 
-console.log(factorial(0));  // Output: 1 
-console.log(factorial(10)); // Output: 3628800 
-console.log(factorial(3));  // Output: 6
+console.assert(factorial(2) === 2, 'Test Case 1 Failed');
+console.assert(factorial(5) === 120, 'Test Case 2 Failed');
+console.assert(factorial(0) === 1, 'Test Case 3 Failed');
+console.assert(factorial(10) === 3628800, 'Test Case 4 Failed');
+console.assert(factorial(3) === 6, 'Test Case 5 Failed');
+
+console.log('All test cases passed successfully!');

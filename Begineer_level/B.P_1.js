@@ -20,9 +20,11 @@ function reverseString(str) {
   return reverseStr
 }
 
-console.log(reverseString('uday kumar purbey'));  // "yebrup ramuk yadu"
-console.log(reverseString('hello'));               // "olleh"
-console.log(reverseString('12345'));               // "54321"
-console.log(reverseString(''));                    // ""
-console.log(reverseString('!@#'));                  // "#@!"
-console.log(reverseString('abc def ghi'));         // "ihg fed cba"
+console.assert(reverseString('uday kumar purbey') === 'yebrup ramuk yadu', 'Test Case 1 Failed');
+console.assert(reverseString('hello') === 'olleh', 'Test Case 2 Failed');
+console.assert(reverseString('12345') === '54321', 'Test Case 3 Failed');
+console.assert(reverseString('') === '', 'Test Case 4 Failed');
+console.assert(reverseString('!@#') === '#@!', 'Test Case 5 Failed');
+console.assert(reverseString('abc def ghi') === 'ihg fed cba', 'Test Case 6 Failed');
+
+console.log('All test cases passed successfully!');

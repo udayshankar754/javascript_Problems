@@ -26,8 +26,10 @@ function isPrime(num) {
   return true;
 }
 
-console.log(isPrime(23));  // true
-console.log(isPrime(24));  // false
-console.log(isPrime(2));   // true
-console.log(isPrime(1));   // Provide a valid Number
-console.log(isPrime(17));  // true
+console.assert(isPrime(23) === true, 'Test Case 1 Failed');
+console.assert(isPrime(24) === false, 'Test Case 2 Failed');
+console.assert(isPrime(2) === true, 'Test Case 3 Failed');
+console.assert(isPrime(1) === 'Provide a valid Number', 'Test Case 4 Failed');
+console.assert(isPrime(17) === true, 'Test Case 5 Failed');
+
+console.log('All test cases passed successfully!');
